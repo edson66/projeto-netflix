@@ -1,0 +1,33 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+    margin-top: 30px;
+    align-items: center;
+    
+}
+
+.img__logo{
+    width: 170px;
+}
+
+.botao__entrar{
+    background-color: red;
+    width: 4.5rem;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-titulos);
+    font-size: 18px;
+    
+}
+
+.background{
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    
+   
+}
